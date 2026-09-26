@@ -1,3 +1,6 @@
-for number in range (65, 91,):
+multiplier = 0
+for number in range(10 + 1):
+  multiplier += 1
 
- print(chr(number),end='   ')
+print(number * multiplier )
+  

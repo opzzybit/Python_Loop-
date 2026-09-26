@@ -1,6 +1,10 @@
-for number in range (50):
+for number in range (50 + 1):
 
-   sum_of_number = number / 2 * (number + 1) 
-   continue   
-
-print(int(sum_of_number))
+  sum = number + 1
+   
+  multiple = number * sum 
+  
+  divide = multiple / 2
+  
+print(int(divide), end="  ")
+print()
